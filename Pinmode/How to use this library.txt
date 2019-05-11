@@ -1,0 +1,26 @@
+LIBRARY: pinmode.h
+WORKS FOR: Arduino IDE
+
+There are two in-built functions:
+1. void IN()
+2. void OUT()
+
+void IN(num, ...)
+
+ This function declares all given pins as input pins.
+
+ example :
+  to declare pins 2, 3, 4 and 5 as input we write:
+  IN(4, 2, 3, 4, 5);
+
+ the first argument passed is the number of pins to be declared as input.
+
+void OUT(num, ...)
+
+ This function declares all given pins as output pins.
+
+ example :
+  to declare pins 2, 3, 4 and 5 as output we write:
+  OUT(4, 2, 3, 4, 5);
+
+ the first argument passed is the number of pins to be declared as output.
